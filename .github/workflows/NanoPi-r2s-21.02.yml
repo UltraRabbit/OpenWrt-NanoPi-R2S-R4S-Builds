@@ -109,7 +109,7 @@ jobs:
           /bin/bash ./steps/05-create_luci_acl.sh
       - name: Load ao mini Config
         run: |
-          /bin/bash ./steps/06-create_config_from_mini_seed.
+          /bin/bash ./steps/06-create_config_from_mini_seed.sh
           
       - name: Download package
         id: package
